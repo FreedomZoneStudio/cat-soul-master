@@ -1,0 +1,475 @@
+Using pre-set license
+Built from '2020.3/china_unity/release' branch; Version is '2020.3.15f1c1 (2f15a4c58450) revision 3085732'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1052; Version 2009; 64bit' Language: 'zh' Physical Memory: 16334 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity\2020.3.15f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/My Project/猫魂师
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+2812
+Successfully changed project path to: F:/My Project/猫魂师
+F:/My Project/猫魂师
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 43.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.15f1c1 (2f15a4c58450)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity/2020.3.15f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/My Project/猫魂师/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   30.0.14.7111
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity/2020.3.15f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity/2020.3.15f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Program Files/Unity/2020.3.15f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity/2020.3.15f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001659 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 44.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.374 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1374ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (485ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (166ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (191ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (44ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (92ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004274 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 47.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.730 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1731ms)
+		BeginReloadAssembly (194ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1474ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (317ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (798ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (626ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2090 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.1 MB.
+System memory in use after: 93.2 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2528.
+Total: 2.961600 ms (FindLiveObjects: 0.177600 ms CreateObjectMapping: 0.047700 ms MarkObjects: 2.669400 ms  DeleteObjects: 0.066000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa27944bdea339c97c39027c7eea529c') in 0.019182 seconds 
+  Import took 0.022141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.065495 seconds.
+  path: Assets/Sprites/paper.psb
+  artifactKey: Guid(95d35d7550252634ab42c68fe9f07591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/paper.psb using Guid(95d35d7550252634ab42c68fe9f07591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd365c5cddebe458ab901ed7bc58af672') in 0.237302 seconds 
+  Import took 0.240703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.810790 seconds.
+  path: Assets/Sprites/纸船/UI/屏幕底端渐变.png
+  artifactKey: Guid(29c6645abaab6cf4aba444f27f32e3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸船/UI/屏幕底端渐变.png using Guid(29c6645abaab6cf4aba444f27f32e3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aedea589bb4ea5f3cf0291c073920bc') in 0.211026 seconds 
+  Import took 0.214359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Sprites/纸船/UI/屏幕顶端渐变.png
+  artifactKey: Guid(48b5dd4e86c5927479f53a8a49e2f653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸船/UI/屏幕顶端渐变.png using Guid(48b5dd4e86c5927479f53a8a49e2f653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe575e36032fd037747e37a680582f67') in 0.042089 seconds 
+  Import took 0.045218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Sprites/纸船/UI/灵视切换_画板 1.png
+  artifactKey: Guid(51d3ca70c8d3d5b48a0b7f3628aefb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸船/UI/灵视切换_画板 1.png using Guid(51d3ca70c8d3d5b48a0b7f3628aefb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0738b2e7e27b6cb811f1b77f3ac5f875') in 0.015385 seconds 
+  Import took 0.018425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Sprites/纸船/UI/菜单.png
+  artifactKey: Guid(329909a8f4ff42b4eb95b2d14f76bf3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸船/UI/菜单.png using Guid(329909a8f4ff42b4eb95b2d14f76bf3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6361b0a668c0253ba2a9e566ffe57b3d') in 0.014595 seconds 
+  Import took 0.017811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Sprites/纸船/UI/指示箭头1.png
+  artifactKey: Guid(46f52f635a7b1164ab147edbf5314e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸船/UI/指示箭头1.png using Guid(46f52f635a7b1164ab147edbf5314e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1a0f815f688c058245b2dcb7be0684') in 0.013559 seconds 
+  Import took 0.016649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Sprites/纸船/UI/指示箭头2.png
+  artifactKey: Guid(94bc9bd5844db6947a0fcb3059d96db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸船/UI/指示箭头2.png using Guid(94bc9bd5844db6947a0fcb3059d96db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fccbc49b3718cebb7e3823dc43923e3d') in 0.013556 seconds 
+  Import took 0.016540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.323346 seconds.
+  path: Assets/Sprites/纸船/UI/屏幕底端渐变.png
+  artifactKey: Guid(29c6645abaab6cf4aba444f27f32e3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸船/UI/屏幕底端渐变.png using Guid(29c6645abaab6cf4aba444f27f32e3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aedea589bb4ea5f3cf0291c073920bc') in 0.017152 seconds 
+  Import took 0.020298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.392483 seconds.
+  path: Assets/Sprites/纸船/步骤/1.png
+  artifactKey: Guid(eb1bf04bc1fc6454caa3da79accc939a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸船/步骤/1.png using Guid(eb1bf04bc1fc6454caa3da79accc939a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d524234d2302a7d3545befb9b6b9b5f') in 0.017413 seconds 
+  Import took 0.020667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Sprites/纸船/步骤/9.png
+  artifactKey: Guid(05525a4e5cbfb6748a80901f0ad222dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸船/步骤/9.png using Guid(05525a4e5cbfb6748a80901f0ad222dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f70c7400a517348cbb235469df68ddf7') in 0.016092 seconds 
+  Import took 0.019097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Sprites/纸船/步骤/8.png
+  artifactKey: Guid(3f7b3a4f0d0b01543a23153cb3cb1fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸船/步骤/8.png using Guid(3f7b3a4f0d0b01543a23153cb3cb1fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9bb861ef51770d146c4fa938fa5408e') in 0.015252 seconds 
+  Import took 0.018101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Sprites/纸船/步骤/5.png
+  artifactKey: Guid(d40c6bd37c71b5f488399c6015d6ad03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸船/步骤/5.png using Guid(d40c6bd37c71b5f488399c6015d6ad03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05740ef027eddc514de8f56a92640ea5') in 0.015455 seconds 
+  Import took 0.018247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Sprites/纸船/步骤/12.png
+  artifactKey: Guid(465f2f5d5bd13b148933ca3448038fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸船/步骤/12.png using Guid(465f2f5d5bd13b148933ca3448038fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ace412144665ca94016ee41808987bb') in 0.014177 seconds 
+  Import took 0.016998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Sprites/纸船/步骤/13.png
+  artifactKey: Guid(f1a6475c06bf0114cb35ee059b0722c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸船/步骤/13.png using Guid(f1a6475c06bf0114cb35ee059b0722c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf0009cde92606687fc228472f77f26') in 0.014823 seconds 
+  Import took 0.017573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Sprites/纸船/步骤/6.png
+  artifactKey: Guid(37ace5818911d894fb2220d90f75953e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸船/步骤/6.png using Guid(37ace5818911d894fb2220d90f75953e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a9bf1511b6c1bb811680f1890df3b2') in 0.014452 seconds 
+  Import took 0.017295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Sprites/纸船/步骤/4.png
+  artifactKey: Guid(f8d31c026d5831343a9cbdc836aac7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸船/步骤/4.png using Guid(f8d31c026d5831343a9cbdc836aac7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92afadce4e2d1ddb1c6fdd0a28f00569') in 0.014338 seconds 
+  Import took 0.017395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Sprites/纸船/步骤/2.png
+  artifactKey: Guid(582afa81131e5894a98c873f39e4161b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸船/步骤/2.png using Guid(582afa81131e5894a98c873f39e4161b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327d9fc113ee7ac36f396af3615f2241') in 0.014941 seconds 
+  Import took 0.017707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Sprites/纸船/步骤/3.png
+  artifactKey: Guid(b4bd18b57d3517f45b289e3efd7ac1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸船/步骤/3.png using Guid(b4bd18b57d3517f45b289e3efd7ac1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74ecc7a6a9fa3b4711c411d204fa984') in 0.014747 seconds 
+  Import took 0.017421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Sprites/纸船/步骤/10.png
+  artifactKey: Guid(8a6398f4473256c4bbe5f85460ec245e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸船/步骤/10.png using Guid(8a6398f4473256c4bbe5f85460ec245e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b457a7d024e4c97311fe2c819f0e29a5') in 0.014112 seconds 
+  Import took 0.016955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Sprites/纸船/步骤/14.png
+  artifactKey: Guid(655ae271f2b5eb542b213b174410435f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸船/步骤/14.png using Guid(655ae271f2b5eb542b213b174410435f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789d9341f7ac9e13b454100384414ad9') in 0.014793 seconds 
+  Import took 0.017945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Sprites/纸船/步骤/7.png
+  artifactKey: Guid(80a48337d61872340adcc4abcfc2b61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸船/步骤/7.png using Guid(80a48337d61872340adcc4abcfc2b61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4256919f00fc956a77e5d0bd608e73') in 0.014509 seconds 
+  Import took 0.017574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Sprites/纸船/步骤/11.png
+  artifactKey: Guid(0b4e9a9948c992d4e8b6e2a6f7f484cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸船/步骤/11.png using Guid(0b4e9a9948c992d4e8b6e2a6f7f484cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f1ea990d1bf45ac79c0335ec8e728f') in 0.015290 seconds 
+  Import took 0.018092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.440955 seconds.
+  path: Assets/Sprites/纸船/箭头指向参考/src=http___searchfoto.ru_img_xyygpKbDS1y8pTjXRy83VS8rMS9fLSy3RL8mwz0yx9fcM0AvK9TM3TSkxjPQsKiuqNEy0dCrzzE73SPQvUUvMLbAutzUyNgCzMmwNzSGsomJbQzCjIDnHNgUMwNx8W1OIMNBoQz1DAA.jpg&refer=http___searchfoto.jpg
+  artifactKey: Guid(68e6bd966a1574e4f888b12dd118062d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸船/箭头指向参考/src=http___searchfoto.ru_img_xyygpKbDS1y8pTjXRy83VS8rMS9fLSy3RL8mwz0yx9fcM0AvK9TM3TSkxjPQsKiuqNEy0dCrzzE73SPQvUUvMLbAutzUyNgCzMmwNzSGsomJbQzCjIDnHNgUMwNx8W1OIMNBoQz1DAA.jpg&refer=http___searchfoto.jpg using Guid(68e6bd966a1574e4f888b12dd118062d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba2afd4f9c4325c1d2f192637d1e05d6') in 0.026819 seconds 
+  Import took 0.030138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.316961 seconds.
+  path: Assets/Sprites/纸船/背景/灵体空间.jpg
+  artifactKey: Guid(e25b390ecb83dbe459e84995e3499a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸船/背景/灵体空间.jpg using Guid(e25b390ecb83dbe459e84995e3499a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de78ff4120927b5c2201eda357ce3e88') in 0.066572 seconds 
+  Import took 0.069701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.927064 seconds.
+  path: Assets/Sprites/纸人
+  artifactKey: Guid(6e995f87c704cc441b3e9206970f05d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸人 using Guid(6e995f87c704cc441b3e9206970f05d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35b0366b09e85cb4a260add77c12dd7') in 0.010370 seconds 
+  Import took 0.014416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.927219 seconds.
+  path: Assets/Sprites/纸人/效果图.png
+  artifactKey: Guid(05d6db03306279b4cbb8b4827027a502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸人/效果图.png using Guid(05d6db03306279b4cbb8b4827027a502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12c34e1bf7ec9f7c1cd795992dc2126') in 0.022499 seconds 
+  Import took 0.025925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Sprites/纸人/笔触-竹月.png
+  artifactKey: Guid(f9198be20af853f4c87cbb0df3178ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸人/笔触-竹月.png using Guid(f9198be20af853f4c87cbb0df3178ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af343b3e80697be8cf320fc5b10e503') in 0.017485 seconds 
+  Import took 0.020733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Sprites/纸人/笔触-红.png
+  artifactKey: Guid(34370bdb4fcea5148a6a92cc9a2901d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸人/笔触-红.png using Guid(34370bdb4fcea5148a6a92cc9a2901d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aab4df614eb0c6bda4b8fac2258c26d') in 0.031342 seconds 
+  Import took 0.034530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Sprites/纸人/颜料-艾.png
+  artifactKey: Guid(3170dd664e4811e40af71999514592e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸人/颜料-艾.png using Guid(3170dd664e4811e40af71999514592e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b47c622aca7484b32aca28c10f50af') in 0.017355 seconds 
+  Import took 0.020528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Sprites/纸人/笔触-木槿.png
+  artifactKey: Guid(13cf383cabdb7804793eda176edc16df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸人/笔触-木槿.png using Guid(13cf383cabdb7804793eda176edc16df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f40b014e3123ec0dc09b8fcb0df230') in 0.020664 seconds 
+  Import took 0.023778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Sprites/纸人/纸人.png
+  artifactKey: Guid(6bae879dd691430448e48d83d0dc0bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸人/纸人.png using Guid(6bae879dd691430448e48d83d0dc0bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f8d2b39311f265967594571e0c8887') in 0.017111 seconds 
+  Import took 0.020548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Sprites/纸人/笔触-妃.png
+  artifactKey: Guid(3f8a28ba779ec054f9368200e17fff21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸人/笔触-妃.png using Guid(3f8a28ba779ec054f9368200e17fff21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b72dd98d3b747b60cd55dc75c0dbec6') in 0.017284 seconds 
+  Import took 0.020333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Sprites/纸人/笔触-灰.png
+  artifactKey: Guid(b2dc286ed86dbd8489197a7afc1321ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸人/笔触-灰.png using Guid(b2dc286ed86dbd8489197a7afc1321ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303763785051a6079553da1276f65eca') in 0.020052 seconds 
+  Import took 0.023038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Sprites/纸人/颜料-妃.png
+  artifactKey: Guid(891b464a6dc041f4d9fa345ff35cbc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸人/颜料-妃.png using Guid(891b464a6dc041f4d9fa345ff35cbc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f50dd08057128ebd04b227af0e8fa37') in 0.017004 seconds 
+  Import took 0.020133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Sprites/纸人/背景条.png
+  artifactKey: Guid(689ead1a21b20e448bf188fdaaa5d895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸人/背景条.png using Guid(689ead1a21b20e448bf188fdaaa5d895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca2a8a3226d28d6f100d76eea6e2cbb') in 0.016494 seconds 
+  Import took 0.019874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Sprites/纸人/颜料-秋香.png
+  artifactKey: Guid(8e5dd3dc31152814f81f9e20e08357ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸人/颜料-秋香.png using Guid(8e5dd3dc31152814f81f9e20e08357ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e00d82c02f815a3cfd8702e359c534') in 0.016761 seconds 
+  Import took 0.019860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Sprites/纸人/颜料-竹月.png
+  artifactKey: Guid(e114cd41f12311a44b95c2c16fb9cc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸人/颜料-竹月.png using Guid(e114cd41f12311a44b95c2c16fb9cc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c4d9a006712d664c2182ed0136c876') in 0.022402 seconds 
+  Import took 0.026175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Sprites/纸人/笔触-艾.png
+  artifactKey: Guid(eba5439355986934fa6ba0ada85eabbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸人/笔触-艾.png using Guid(eba5439355986934fa6ba0ada85eabbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054f8e8a285a7236afacbcb74c980779') in 0.018126 seconds 
+  Import took 0.021263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Sprites/纸人/笔触-秋香.png
+  artifactKey: Guid(5407603ade20f7f42b36c5200ad60792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸人/笔触-秋香.png using Guid(5407603ade20f7f42b36c5200ad60792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c6b87c5dad5168d98583b0aca0a270') in 0.018262 seconds 
+  Import took 0.021171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Sprites/纸人/颜料-木槿.png
+  artifactKey: Guid(65ab19e3904e4614584db9e066c203ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸人/颜料-木槿.png using Guid(65ab19e3904e4614584db9e066c203ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6712655cb016779d6a69fe1bce13005') in 0.018342 seconds 
+  Import took 0.021600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Sprites/纸人/颜料-灰.png
+  artifactKey: Guid(92ba12a84d937fc4a9ddda9f9e00b354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸人/颜料-灰.png using Guid(92ba12a84d937fc4a9ddda9f9e00b354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57cc0215585d3fec2ed8312cd74264c7') in 0.016260 seconds 
+  Import took 0.019180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Sprites/纸人/颜料-红.png
+  artifactKey: Guid(64a61056e6e31dc43b2eb1e6196d8a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/纸人/颜料-红.png using Guid(64a61056e6e31dc43b2eb1e6196d8a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b5ba81b662291849a6bd7066040304') in 0.024287 seconds 
+  Import took 0.027599 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
