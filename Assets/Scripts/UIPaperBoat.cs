@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
@@ -7,73 +8,55 @@ using UnityEngine.UI;
 public class UIPaperBoat : MonoBehaviour
 {
     [SerializeField] private Button btnNext;
-    [SerializeField] private Button btnRestart;
-    [SerializeField] private Text txtTip;
-    [SerializeField] private Animator aniSteps;
+    [SerializeField] private Button btnApply;
 
-    [SerializeField] private GameObject[] steps;
+    [SerializeField] private List<UIStep> steps;
     [SerializeField] private int index = 0;
 
     private void Awake()
     {
-        btnNext.onClick.AddListener(new UnityAction(AniNext));
-        btnRestart.onClick.AddListener(new UnityAction(Restart));
+        btnNext.onClick.AddListener(new UnityAction(Next));
+        btnApply.onClick.AddListener(delegate () {
+            GetComponentInParent<UIManager>().AniBack();
+        });
 
         btnNext.gameObject.SetActive(true);
-        btnRestart.gameObject.SetActive(false);
-        txtTip.gameObject.SetActive(false);
+        btnApply.gameObject.SetActive(false);
+
+        steps = GetComponentsInChildren<UIStep>(true).ToList();
     }
-    void Start()
+    private void Start()
     {
-        Refresh();
+        for (int i = 0; i < steps.Count; i++)
+        {
+            steps[i].Disable();
+        }
+
+        Invoke(nameof(EnableCurrent), 1);
     }
 
     public void Next()
     {
-        index++;
-        if (index >= steps.Length)
+        if (index + 1 < steps.Count)
         {
-            index--;
+            steps[index].Hide();
+            index++;
+            steps[index].Enable();
+        }
 
+        if (index + 1 >= steps.Count)
+        {
             btnNext.gameObject.SetActive(false);
-            btnRestart.gameObject.SetActive(true);
-            txtTip.gameObject.SetActive(true);
-        }
-
-        Refresh();
-    }
-    public void Restart()
-    {
-        index = 0;
-
-        btnNext.gameObject.SetActive(true);
-        btnRestart.gameObject.SetActive(false);
-        txtTip.gameObject.SetActive(false);
-
-        Refresh();
-    }
-
-    public void Refresh()
-    {
-        for (int i = 0; i < steps.Length; i++)
-        {
-            steps[i].SetActive(i == index);
+            btnApply.gameObject.SetActive(true);
         }
     }
-    public void ShowSteps()
-    {
-        aniSteps.SetTrigger("Show");
-    }
-    public void HideSteps()
-    {
-        aniSteps.SetTrigger("Hide");
-    }
 
-    public void AniNext()
+    private void EnableCurrent()
     {
-        CancelInvoke();
-        HideSteps();
-        Invoke(nameof(ShowSteps), 1);
-        Invoke(nameof(Next), 1);
+        steps[index].Enable();
+    }
+    private void DisableCurrent()
+    {
+        steps[index].Disable();
     }
 }
