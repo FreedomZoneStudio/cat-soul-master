@@ -9,6 +9,7 @@ public class UIPaperBoat : MonoBehaviour
 {
     [SerializeField] private Button btnNext;
     [SerializeField] private Button btnApply;
+    [SerializeField] private AudioSource audioSource;
 
     [SerializeField] private List<UIStep> steps;
     [SerializeField] private int index = 0;
@@ -42,6 +43,7 @@ public class UIPaperBoat : MonoBehaviour
             steps[index].Hide();
             index++;
             steps[index].Enable();
+            audioSource.Play();
         }
 
         if (index + 1 >= steps.Count)
@@ -54,6 +56,7 @@ public class UIPaperBoat : MonoBehaviour
     private void EnableCurrent()
     {
         steps[index].Enable();
+        //audioSource.Play();
     }
     private void DisableCurrent()
     {
