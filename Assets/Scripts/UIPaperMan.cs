@@ -25,7 +25,7 @@ public class UIPaperMan : MonoBehaviour
         txtTip.gameObject.SetActive(true);
         btnApply.gameObject.SetActive(false);
         btnApply.onClick.AddListener(delegate () {
-            GetComponentInParent<UIManager>().AniBack();
+            GetComponentInParent<UIManager>().AniGoToNextScene();
         });
 
         btnBody.GetComponent<Image>().alphaHitTestMinimumThreshold = 0.1f;

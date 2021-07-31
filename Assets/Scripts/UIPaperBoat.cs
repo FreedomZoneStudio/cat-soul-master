@@ -18,7 +18,7 @@ public class UIPaperBoat : MonoBehaviour
     {
         btnNext.onClick.AddListener(new UnityAction(Next));
         btnApply.onClick.AddListener(delegate () {
-            GetComponentInParent<UIManager>().AniBack();
+            GetComponentInParent<UIManager>().AniGoToNextScene();
         });
 
         btnNext.gameObject.SetActive(true);
